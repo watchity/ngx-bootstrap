@@ -34,7 +34,7 @@ export class BsDropdownModule {
         BsDropdownState,
         {
           provide: BsDropdownConfig,
-          useValue: config ? config : { autoClose: true }
+          useValue: config ? config : { autoClose: true, insideClick: false }
         }
       ]
     };
