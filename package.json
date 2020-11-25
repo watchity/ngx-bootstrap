@@ -1,8 +1,8 @@
 {
-  "name": "ngx-bootstrap-base",
-  "version": "2.0.5",
+  "name": "ngx-bootstrap-watchity",
+  "version": "2.0.6",
   "description": "Native Angular Bootstrap Components",
-  "private": true,
+  "private": false,
   "scripts": {
     "lite-server": "lite-server -c scripts/bs-config.js",
     "demo.gen-docs": "node scripts/docs/get-doc.js",
@@ -60,12 +60,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/valor-software/ngx-bootstrap.git"
+    "url": "git+ssh://git@github.com/watchity/ngx-bootstrap.git"
   },
   "bugs": {
-    "url": "https://github.com/valor-software/ngx-bootstrap/issues"
+    "url": "https://github.com/watchity/ngx-bootstrap/issues"
   },
-  "homepage": "https://github.com/valor-software/ngx-bootstrap#readme",
+  "homepage": "https://github.com/watchity/ngx-bootstrap#readme",
   "peerDependencies": {
     "@angular/common": ">=4.3.0 || >5.0.0",
     "@angular/compiler": ">=4.3.0 || >5.0.0",
