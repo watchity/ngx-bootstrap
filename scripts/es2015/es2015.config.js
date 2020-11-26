@@ -4,7 +4,7 @@ const rollup = require('rollup');
 const resolve = require('rollup-plugin-node-resolve');
 const commonjs = require('rollup-plugin-commonjs');
 const ROLLUP_GLOBALS = require('./rollup.globals');
-const libName = 'ngx-bootstrap';
+const libName = 'ngx-bootstrap-watchity';
 const PATH_SRC = 'dist-es2015/';
 const PATH_DIST = 'dist/bundles/';
 

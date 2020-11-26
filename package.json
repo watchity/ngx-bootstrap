@@ -45,7 +45,7 @@
     "webpack:server": "webpack --config ./scripts/universal/webpack.server.config.js --progress --colors",
     "configure-heroku": "node scripts/universal/configure-heroku.js"
   },
-  "main": "bundles/ngx-bootstrap.umd.js",
+  "main": "bundles/ngx-bootstrap-watchity.umd.js",
   "module": "index.js",
   "typings": "index.d.ts",
   "keywords": [
